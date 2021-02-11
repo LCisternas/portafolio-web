@@ -6,6 +6,7 @@ html {
   margin: 0px;
   padding: 0px;
   background-color: black;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0px;
@@ -37,7 +38,7 @@ i {
   justify-content: center;
 }
 nav {
-  background-color: rgba(46, 107, 117, 0.6);
+  background-color: rgba(46, 107, 117, 0.5);
   display: flex;
   justify-content: center;
   position: fixed;
@@ -46,6 +47,7 @@ nav {
   margin: 0px;
   padding: 0px;
   top: 0;
+  z-index: 5;
 }
 nav a {
   font-size: 1.8rem;
@@ -82,7 +84,7 @@ nav a:hover {
   transform: scale(1.2,1.2);
 }
 .title {
-  margin: 50px;
+  margin: 100px;
   color: aliceblue;
 }
 #proyects {
@@ -178,6 +180,7 @@ nav a:hover {
     flex-direction: column;
     width: 100%;
     background-color: transparent;
+    margin: 40px;
   }
   .proyect-tile img {
     width: 100%;
@@ -198,6 +201,9 @@ nav a:hover {
   #contact p {
     font-size: 1.5rem;
   }
+  #contact h2:hover {
+    transform: scale(1.1,1.1);
+  }
   .icons {
     width: 100%;
     margin: 0px;
@@ -206,5 +212,8 @@ nav a:hover {
 @media all and (min-width: 769px) and (max-width: 1600px) {
   nav {
     width: 100%;
+  }
+  .proyect-tile {
+    margin: 30px;
   }
 }
