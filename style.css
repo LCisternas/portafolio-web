@@ -147,18 +147,18 @@ nav a:hover {
 /*MEDIA QUERIES*/
 @media all and (min-width: 320px) and (max-width: 768px) {
   nav {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
   }
   nav a {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 5px;
   }
   #welcome-section {
     text-align: center;
-    height: 120vh;
+    height: 100vh;
   }
   h1 {
     font-size: 3rem;
@@ -192,11 +192,11 @@ nav a:hover {
   }
   #contact {
     text-align: center;
-    height: 80vh;
+    height: 100vh;
   }
   #contact h2 {
     margin-top: 50px;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   #contact p {
     font-size: 1.5rem;
